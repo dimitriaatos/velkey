@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./c74ref.xsl" type="text/xsl"?>
+<c74object name="velkey">
+  <digest>Add velocity sensitivity with keypress audio</digest>
+  <description>Uses the sound of keyprresses to add velocity sensitivity to MIDI notes.</description>
+
+  <metadatalist>
+    <metadata name="author">Dimitri Aatos Ellinas</metadata>
+    <metadata name="tag">Max</metadata>
+    <metadata name="tag">MIDI</metadata>
+		<metadata name="tag">velocity</metadata>
+  </metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INLET_TYPE">
+			<digest>
+				velkey: Pitch
+			</digest>
+			<description>
+				MIDI note pitch.
+			</description>
+		</inlet>
+			<inlet id="1" type="INLET_TYPE">
+			<digest>
+				velkey: Velocity
+			</digest>
+			<description>
+				MIDI note velocity, non-zero for note-on, 0 for note-off.
+			</description>
+		</inlet>
+	</inletlist>
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="OUTLET_TYPE">
+			<digest>
+				velkey: Pitch
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+		<outlet id="1" type="OUTLET_TYPE">
+			<digest>
+				velkey: Velocity
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</outlet>
+	</outletlist>
+<!--ARGUMENTS-->
+  <objarglist>
+    <objarg name="sensitivity" optional="1" type="number">
+      <digest>Sets the sensitivity of the keyboard</digest>
+      <description>Sets the sensitivity of the keyboard. 0 uses the raw kaypress amplitude leves, positive number increase the sensitivity and negative numbers decrease it.</description>
+    </objarg>
+		<objarg name="gain" optional="1" type="number">
+      <digest>A multiplier for the velocity</digest>
+      <description>A number to be mutiplied with the velocity, equivelent of multiplying a gain value with the keypress sound signal.</description>
+    </objarg>
+  </objarglist>
+
+		<!--MESSAGES-->
+	<methodlist>
+		<method name="signal">
+			<digest>
+				Signal containing the sound of the keypresses
+			</digest>
+			<description>
+				Signal containing the sound of the keypresses.
+			</description>
+		</method>
+				<method name="int">
+			<digest>
+				Stores pitch and causes output
+			</digest>
+			<description>
+				TEXT_HERE
+			</description>
+		</method>
+		<method name="float">
+			<arglist>
+				<arg name="input" optional="0" type="float" />
+			</arglist>
+			<digest>
+				Function depends on inlet
+			</digest>
+			<description>
+				Converted to <m>int</m>.
+			</description>
+		</method>
+		<method name="in1">
+			<arglist>
+				<arg name="velocity" optional="0" type="int" />
+			</arglist>
+			<digest>
+				Boolean velocity
+			</digest>
+			<description>
+				Non-zero for note-on, zero for note-on.
+			</description>
+		</method>
+	</methodlist>
+
+	<!--ATTRIBUTES-->
+	<attributelist>
+		<attribute name="sensitivity" get="1" set="1" type="float64" size="1">
+      <digest>Sets the sensitivity of the keyboard</digest>
+      <description>Sets the sensitivity of the keyboard. 0 uses the raw kaypress amplitude leves, positive number increase the sensitivity and negative numbers decrease it.</description>
+		</attribute>
+		<attribute name="gain" get="1" set="1" type="float64" size="1">
+      <digest>A multiplier for the velocity</digest>
+      <description>A number to be mutiplied with the velocity, equivelent of multiplying a gain value with the keypress sound signal.</description>
+		</attribute>
+	</attributelist>
+
+<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="velkeyin" />
+		<seealso name="notein" />
+	</seealsolist>
+
+</c74object>
