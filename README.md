@@ -8,6 +8,10 @@ This is particularly easy with laptops using the built-in mic, but is also achie
 
 - Java
 
+## Installation
+
+Place the velkey folder to a directory viewable by Max (listed in Max File Preferences).
+
 ## Disclaimer
 
 - VelKey hasn't been tested, it is thus not guaranteed that it will work with every keyboard and mic.
