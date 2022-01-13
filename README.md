@@ -2,7 +2,7 @@
 
 VelKey is a Max/MSP abstraction that adds velocity sensitivity to computer keyboards by using the amplitude of the keypress sound to determine velocity.
 
-This is particularly easy with laptops using the built-in mic, but is also achievable with other keyboards by attaching a contact mic (piezoelectric disc).
+This is particularly easy with laptops using the built-in mic, but is also achievable with other keyboards by attaching a contact mic (piezoelectric disk).
 
 ## Prerequisites
 
