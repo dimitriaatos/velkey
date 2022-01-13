@@ -92,6 +92,17 @@
 		</method>
 		<method name="in1">
 			<arglist>
+				<arg name="pitch" optional="0" type="int" />
+			</arglist>
+			<digest>
+				Pitch
+			</digest>
+			<description>
+				MIDI note pitch
+			</description>
+		</method>
+		<method name="in2">
+			<arglist>
 				<arg name="velocity" optional="0" type="int" />
 			</arglist>
 			<digest>
