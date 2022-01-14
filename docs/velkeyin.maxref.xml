@@ -48,8 +48,8 @@
       <description>Sets the sensitivity of the keyboard. 0 uses the raw kaypress amplitude leves, positive number increase the sensitivity and negative numbers decrease it.</description>
     </objarg>
 		<objarg name="gain" optional="1" type="number">
-      <digest>A multiplier for the velocity</digest>
-      <description>A number to be mutiplied with the velocity, equivelent of multiplying a gain value with the keypress sound signal.</description>
+      <digest>Multiplies the velocity value</digest>
+      <description>A number to be mutiplied with the velocity value, equivelent to multiplying a number with the keypress sound signal.</description>
     </objarg>
   </objarglist>
 
@@ -72,8 +72,8 @@
       <description>Sets the sensitivity of the keyboard. 0 uses the raw kaypress amplitude leves, positive number increase the sensitivity and negative numbers decrease it.</description>
 		</attribute>
 		<attribute name="gain" get="1" set="1" type="float64" size="1">
-      <digest>A multiplier for the velocity</digest>
-      <description>A number to be mutiplied with the velocity, equivelent of multiplying a gain value with the keypress sound signal.</description>
+      <digest>Multiplies the velocity value</digest>
+      <description>A number to be mutiplied with the velocity value, equivelent to multiplying a number with the keypress sound signal.</description>
 		</attribute>
 	</attributelist>
 

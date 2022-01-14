@@ -180,8 +180,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 292.0, 146.0, 176.0, 54.0 ],
-									"text" : "Make sure the audio captures the sound of the keypresses."
+									"patching_rect" : [ 292.0, 146.0, 163.0, 54.0 ],
+									"text" : "Use a mic that captures the sound of the keypresses."
 								}
 
 							}

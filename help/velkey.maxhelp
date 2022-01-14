@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 397.0, 149.0, 457.0, 430.0 ],
+		"rect" : [ 100.0, 100.0, 521.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 397.0, 175.0, 457.0, 404.0 ],
+						"rect" : [ 100.0, 126.0, 521.0, 399.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -116,8 +116,22 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 144.0, 176.0, 54.0 ],
-									"text" : "Make sure the audio captures the sound of the keypresses."
+									"patching_rect" : [ 345.304496765136719, 144.0, 143.0, 54.0 ],
+									"presentation_linecount" : 3,
+									"text" : "Try clicking by tapping the trackpad of a laptop."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 72.0, 144.0, 163.0, 54.0 ],
+									"text" : "Use a mic that captures the sound of the keypresses."
 								}
 
 							}
@@ -130,7 +144,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 276.304496765136719, 144.0, 98.0, 60.0 ],
+									"patching_rect" : [ 245.304496765136719, 144.0, 98.0, 60.0 ],
 									"range" : 12
 								}
 
@@ -142,7 +156,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 47.0, 144.0, 45.0, 45.0 ]
+									"patching_rect" : [ 25.0, 144.0, 45.0, 45.0 ]
 								}
 
 							}
@@ -153,7 +167,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 124.0, 224.0, 71.0, 23.0 ],
+									"patching_rect" : [ 196.5, 225.0, 71.0, 23.0 ],
 									"text" : "notein"
 								}
 
@@ -164,7 +178,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 124.0, 350.0, 71.0, 23.0 ],
+									"patching_rect" : [ 196.5, 351.0, 71.0, 23.0 ],
 									"text" : "noteout"
 								}
 
@@ -176,7 +190,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 124.0, 290.0, 45.0, 23.0 ],
+									"patching_rect" : [ 196.5, 291.0, 45.0, 23.0 ],
 									"text" : "velkey"
 								}
 
@@ -193,7 +207,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 171.0, 290.0, 199.608993530273438, 55.0 ]
+									"patching_rect" : [ 243.5, 291.0, 199.608993530273438, 54.0 ]
 								}
 
 							}
@@ -209,7 +223,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 10.0, 416.0, 107.0 ]
+									"patching_rect" : [ 10.0, 10.0, 500.304496765136719, 107.0 ]
 								}
 
 							}
@@ -314,7 +328,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 457.0, 404.0 ],
+						"rect" : [ 0.0, 26.0, 521.0, 399.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
