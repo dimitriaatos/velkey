@@ -4,6 +4,11 @@ VelKey is a Max/MSP abstraction that adds velocity sensitivity to computer keybo
 
 This is particularly easy with laptops using the built-in mic, but is also achievable with other keyboards by attaching a contact mic (piezoelectric disk).
 
+## Abstractions
+
+- `velkeyin`: this abstraction is a ready to use solution, it includes both the velocity tracking and a keyboard implementation similar to Max's KeyMidi, it can be used like a [notein] object.
+- `velkey`: this abstraction implements only the velocity tracking. It can be useful for adding velocity sensitivity to other keyboard layouts.
+
 ## Prerequisites
 
 - Java
